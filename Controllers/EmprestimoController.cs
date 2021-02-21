@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using System;
+using System.Collections.Generic;
 
 namespace Biblioteca.Controllers{
     
@@ -12,7 +13,18 @@ namespace Biblioteca.Controllers{
             LivroService livroService = new LivroService();
             EmprestimoService emprestimoService = new EmprestimoService();
             CadEmprestimoViewModel cadModel = new CadEmprestimoViewModel();
+            var controle = new List<Livro>();
             cadModel.Livros = livroService.ListarTodos();
+            foreach(Livro a in cadModel.Livros){
+                foreach(Emprestimo b in emprestimoService.ListarTodos(null)){
+                    if(b.Livro.Id == a.Id){
+                        controle.Add(a);
+                    }
+                }
+            }
+            foreach(Livro a in controle){
+                cadModel.Livros.Remove(a);
+            }
             return View(cadModel);
         }
 

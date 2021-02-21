@@ -2,9 +2,9 @@
 @{
     ViewData["Title"] = "Cadastro de Emprestimos";
 }
-
 <h1 class="row justify-content-md-center">Cadastro de Empréstimo</h1>
 <div class="row justify-content-md-center">
+@if(Model.Livros.Count > 0){
     <form asp-action="Cadastro" method="POST" class="col-md-4">
         <fieldset>
             <legend>Usuario</legend>
@@ -28,15 +28,18 @@
                 <input required type="date" asp-for="Emprestimo.DataDevolucao" class="form-control"/>
             </div>
             <div class="form-group">
-                <label asp-for="Emprestimo.LivroId">Livro</label>
-                <select asp-for="Emprestimo.LivroId" class="form-control">
-                    @foreach(Livro l in Model.Livros)
-                    {
-                        <option value="@l.Id">@l.Titulo</option>
-                    }
-                </select>
+                    <label asp-for="Emprestimo.LivroId">Livro</label>
+                    <select asp-for="Emprestimo.LivroId" class="form-control">
+                            @foreach(Livro l in Model.Livros)
+                            {
+                                <option value="@l.Id">@l.Titulo</option>
+                            }
+                    </select>
             </div>
         </fieldset>
         <input type="submit" value="Salvar" class="btn btn-primary"/>
     </form>
+}else{
+    <p>Não há livros disponíveis para empréstimo.</p>
+}
 </div>
