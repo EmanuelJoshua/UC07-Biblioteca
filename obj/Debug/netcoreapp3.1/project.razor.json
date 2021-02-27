@@ -14427,6 +14427,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\usario\\Desktop\\Emanuel\\Cursos\\Curso SENAC\\Módulo B\\2-UC07-Documentação e Manutenção\\Atividades\\Atividades\\Biblioteca\\Views\\Usuarios\\ListaDeUsuarios.cshtml",
+      "TargetPath": "Views\\Usuarios\\ListaDeUsuarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\usario\\Desktop\\Emanuel\\Cursos\\Curso SENAC\\Módulo B\\2-UC07-Documentação e Manutenção\\Atividades\\Atividades\\Biblioteca\\Views\\Livro\\Edicao.cshtml",
       "TargetPath": "Views\\Livro\\Edicao.cshtml",
       "FileKind": "mvc"
@@ -14442,13 +14447,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\usario\\Desktop\\Emanuel\\Cursos\\Curso SENAC\\Módulo B\\2-UC07-Documentação e Manutenção\\Atividades\\Atividades\\Biblioteca\\Views\\Usuarios\\ExcluirUsuario.cshtml",
+      "TargetPath": "Views\\Usuarios\\ExcluirUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\usario\\Desktop\\Emanuel\\Cursos\\Curso SENAC\\Módulo B\\2-UC07-Documentação e Manutenção\\Atividades\\Atividades\\Biblioteca\\Views\\Usuarios\\NeedAdmin.cshtml",
+      "TargetPath": "Views\\Usuarios\\NeedAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\usario\\Desktop\\Emanuel\\Cursos\\Curso SENAC\\Módulo B\\2-UC07-Documentação e Manutenção\\Atividades\\Atividades\\Biblioteca\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\usario\\Desktop\\Emanuel\\Cursos\\Curso SENAC\\Módulo B\\2-UC07-Documentação e Manutenção\\Atividades\\Atividades\\Biblioteca\\Views\\Usuarios\\RegistrarUsuarios.cshtml",
+      "TargetPath": "Views\\Usuarios\\RegistrarUsuarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\usario\\Desktop\\Emanuel\\Cursos\\Curso SENAC\\Módulo B\\2-UC07-Documentação e Manutenção\\Atividades\\Atividades\\Biblioteca\\Views\\Home\\Login.cshtml",
       "TargetPath": "Views\\Home\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\usario\\Desktop\\Emanuel\\Cursos\\Curso SENAC\\Módulo B\\2-UC07-Documentação e Manutenção\\Atividades\\Atividades\\Biblioteca\\Views\\Usuarios\\editarUsuario.cshtml",
+      "TargetPath": "Views\\Usuarios\\editarUsuario.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14464,6 +14489,11 @@
     {
       "FilePath": "c:\\Users\\usario\\Desktop\\Emanuel\\Cursos\\Curso SENAC\\Módulo B\\2-UC07-Documentação e Manutenção\\Atividades\\Atividades\\Biblioteca\\Views\\Emprestimo\\Listagem.cshtml",
       "TargetPath": "Views\\Emprestimo\\Listagem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\usario\\Desktop\\Emanuel\\Cursos\\Curso SENAC\\Módulo B\\2-UC07-Documentação e Manutenção\\Atividades\\Atividades\\Biblioteca\\Views\\Usuarios\\cadastroRealizado.cshtml",
+      "TargetPath": "Views\\Usuarios\\cadastroRealizado.cshtml",
       "FileKind": "mvc"
     }
   ],
